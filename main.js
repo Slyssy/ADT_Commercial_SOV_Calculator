@@ -374,6 +374,16 @@ calcSOV.addEventListener('click', (event) => {
       </tr>
     </tbody>
     </table>
+    
   `
   );
+});
+
+closeModal.addEventListener('click', (event) => {
+  event.preventDefault();
+  main.classList.remove('hide');
+  calcBillable.classList.remove('hide');
+  calcSOV.classList.remove('hide');
+  title.classList.remove('hide');
+  document.querySelector('#sov-modal').classList.add('hide');
 });

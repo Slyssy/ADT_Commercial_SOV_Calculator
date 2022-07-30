@@ -60,6 +60,7 @@ body {
   padding: 1rem;
   display: block;
   text-align: center;
+  transition: all ease 0.3s;
 }
 
 .navbar-links li a:hover {

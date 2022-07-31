@@ -396,7 +396,7 @@ input[type='submit'] {
 /* # Schedule of Values Styling Starts Here */
 #modal-container {
   height: 80vh;
-  display: flex;
+  /* display: flex; */
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -459,6 +459,9 @@ section.sov-table {
   display: none;
 }
 
+.active {
+  display: flex;
+}
 /* ! Start Mobile CSS Styling */
 @media (max-width: 700px) {
   .logo {

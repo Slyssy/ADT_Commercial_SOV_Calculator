@@ -2,6 +2,7 @@
 // $ Defining CSS Selector Variables
 const title = document.querySelector('h1');
 const main = document.querySelector('main');
+const modal = document.querySelector('#modal-container');
 // ? Job Revenue and Expense Table
 const jobName = document.querySelector('#job-name');
 const jobAddress = document.querySelector('#job-address');
@@ -193,6 +194,8 @@ calcSOV.addEventListener('click', (event) => {
   calcBillable.classList.add('hide');
   calcSOV.classList.add('hide');
   title.classList.add('hide');
+  modal.classList.add('active');
+  modal.classList.remove('hide');
   const billableSetup = calcPercentage(
     +laborBill.innerHTML.slice(1),
     +setupMultiplier.value

@@ -171,6 +171,9 @@ main {
   font-weight: 700;
 }
 
+.revenue-expense input {
+  border-radius: none;
+}
 .revenue-expense p {
   grid-column: span 4;
   text-align: center;

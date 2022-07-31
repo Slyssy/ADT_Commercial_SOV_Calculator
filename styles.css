@@ -393,6 +393,68 @@ input[type='submit'] {
   font-weight: 600;
 }
 
+/* # Schedule of Values Styling Starts Here */
+#modal-container {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#sov-container {
+  width: 670px;
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  flex-basis: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sov-title {
+  color: var(--text-bright);
+}
+section.sov-table {
+  flex-basis: 75%;
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr;
+  grid-template-rows: 2.5em repeat(12, 2em) 2.5em;
+}
+
+.header {
+  height: 100%;
+  background-color: var(--adt-blue);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.row-head {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 1em;
+}
+
+.row-value {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.odd {
+  background-color: var(--lavender-web);
+}
 .hide {
   display: none;
 }

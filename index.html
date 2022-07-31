@@ -116,7 +116,58 @@
         <input type="submit" class="calc-billable" value="Calculate Billable"></input>
         <input type="submit" class="calc-sov" value="Calculate SOV"></input>
       </div>
-      <div id="sov-modal">
+      <div id="modal-container">
+        <div id="sov-container">
+          <header>
+            <h1 class="sov-job-name"></h1>
+            <h5 class="sov-job-address"></h5>
+            <h3 class="sov-title">Schedule of Values</h3>
+          </header>
+          <section class="sov-table">
+            <h5 class="header">Cost Category</h5>
+            <h5 class="header">Assigned Value</h5>
+            <h5 class="header">% of Total</h5>
+            <h5 class="row row-head">Project Setup & Administration</h5>
+            <p class="sov-setup row-value assigned-value">$100000.00</p>
+            <p class="sov-setup-perc row-value percentage">65%</p>
+            <h5 class="row row-head odd">Engineering & Design</h5>
+            <p class="sov-design row-value odd assigned-value">$100000.00</p>
+            <p class="sov-design-perc row-value odd percentage">65%</p>
+            <h5 class="row row-head">Submittals</h5>
+            <p class="sov-submittals row-value assigned-value">$100000.00</p>
+            <p class="sov-submittals-perc row-value percentage">65%</p>
+            <h5 class="row row-head odd">Equipment Procurement</h5>
+            <p class="sov-procurement row-value odd assigned-value">$100000.00</p>
+            <p class="sov-procurement-perc row-value odd percentage">65%</p>
+            <h5 class="row row-head">Equipment Receipt & Storage</h5>
+            <p class="sov-storage row-value assigned-value">$100000.00</p>
+            <p class="sov-storage-perc row-value percentage">65%</p>
+            <h5 class="row row-head odd">Project Management</h5>
+            <p class="sov-pm row-value odd assigned-value">$100000.00</p>
+            <p class="sov-pm-perc row-value odd percentage">65%</p>
+            <h5 class="row row-head">Labor Mobilization</h5>
+            <p class="sov-mobilization row-value assigned-value">$100000.00</p>
+            <p class="sov-mobilization-perc row-value percentage">65%</p>
+            <h5 class="row row-head odd">Prewire</h5>
+            <p class="sov-prewire row-value odd assigned-value">$100000.00</p>
+            <p class="sov-prewire-perc row-value odd percentage">65%</p>
+            <h5 class="row row-head">Equipment Installation</h5>
+            <p class="sov-installation row-value assigned-value">$100000.00</p>
+            <p class="sov-installation-perc row-value percentage">65%</p>
+            <h5 class="row row-head odd">Programming & Testing</h5>
+            <p class="sov-programming row-value odd assigned-value">$100000.00</p>
+            <p class="sov-programming-perc row-value odd percentage">65%</p>
+            <h5 class="row row-head">Commissioning & Training</h5>
+            <p class="sov-commissioning row-value assigned-value">$100000.00</p>
+            <p class="sov-commissioning-perc row-value percentage">65%</p>
+            <h5 class="row row-head odd">Project Closeout</h5>
+            <p class="sov-closeout row-value odd assigned-value">$100000.00</p>
+            <p class="sov-closeout-perc row-value odd percentage">65%</p>
+            <h5 class="header">TOTAL</h5>
+            <h5 class="header sov-total">$10000000.00</h5>
+            <h5 class="header sov-total-perc">100%</h5>
+          </section>
+        </div>
       </div>
     </div>
   </body>
